@@ -3,13 +3,13 @@ import shortid from "shortid";
 import Section from "./components/Section";
 import ContactForm from './components/ContactForm'
 import Filter from "./components/Filter";
-import contacts from "./components/data/contacts.json";
+// import contacts from "./components/data/contacts.json";
 import Contacts from './components/ContactsList'
 
 class App extends Component {
 
   state = {
-    contacts,
+    contacts:[],
     filter: '',
   };
   
